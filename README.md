@@ -4,7 +4,7 @@
 
 El cliente de mayor edad es Carlos Ruiz (80 años). Se usa una subconsulta con MAX(edad) para identificarlo y se listan todas sus cuentas con nombre, edad, id y saldo.
 
-<!-- captura Q3 -->
+![Q3](capturas/Q3.png)
 
 ---
 
@@ -12,7 +12,7 @@ El cliente de mayor edad es Carlos Ruiz (80 años). Se usa una subconsulta con M
 
 Los clientes con al menos una cuenta negativa son Ana (78), Luis (25) y Maria (40). El promedio resulta en 47.67.
 
-<!-- captura Q4 -->
+![Q4](capturas/Q4.png)
 
 ---
 
@@ -20,7 +20,7 @@ Los clientes con al menos una cuenta negativa son Ana (78), Luis (25) y Maria (4
 
 Se agrupa por cliente y se filtra con HAVING COUNT > 1. Con los datos ingresados, los 5 clientes califican (entre 2 y 4 cuentas cada uno).
 
-<!-- captura Q5 -->
+![Q5](capturas/Q5.png)
 
 ---
 
@@ -28,7 +28,7 @@ Se agrupa por cliente y se filtra con HAVING COUNT > 1. Con los datos ingresados
 
 Mismo agrupamiento que Q5 pero sumando los saldos. El resultado incluye cuentas positivas y negativas de cada cliente.
 
-<!-- captura Q6 -->
+![Q6](capturas/Q6.png)
 
 ---
 
@@ -36,4 +36,4 @@ Mismo agrupamiento que Q5 pero sumando los saldos. El resultado incluye cuentas 
 
 Solo aparecen Ana, Luis y Maria por tener al menos una cuenta negativa. El saldo combinado considera todas sus cuentas, no solo las negativas.
 
-<!-- captura Q7 -->
+![Q7](capturas/Q7.png)
